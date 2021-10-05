@@ -1,0 +1,65 @@
+.location{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 66,5px;
+    color: #FFF;
+}
+
+.wrapperToday {
+    background: linear-gradient(#15143D, #3F3D7D);
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.todayDate {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29,26px;
+    color: #9090a8;
+}
+
+.todayDescription {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29,26px;
+    color: #9090a8;
+    text-transform:capitalize;
+}
+
+.todayWeather {
+    display: flex;
+    margin-top: 50px;
+}
+
+.avgTemp {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    color: #FFF;
+    padding-right: 10px;
+}
+
+.todayDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.todayDesc > div {
+    display: flex;
+    color: #9090a8;
+}
+
+.todayDesc > div > div {
+    color: #FFF;
+    margin-left: 5px;
+}
+
+.cityInput {
+    margin-left: 650px;
+    margin-top: 20px;
+}
+
+.topContainer {
+    display: flex;
+}

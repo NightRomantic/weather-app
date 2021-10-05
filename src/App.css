@@ -1,0 +1,21 @@
+.dayliContainer {
+    border-radius: 0px 0px 10px 10px;
+    background-color: #FFF;
+    padding: 20px 15px;
+}
+
+.dayliWrapper {
+    display: flex;
+}
+
+.h2 {
+    background-color: #FFF;
+    margin: 10px 10px 20px 10px;
+}
+
+.wrapper {
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+.dayli {
+    margin: 0 10px;
+    font-family: 'Segoe UI';
+}
+
+.dayliTemp {
+    display: flex;
+}
+
+.day {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.date {
+    color: #9090a8;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.description {
+    max-width: 100px;
+    color: #9090a8;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.tempMax {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 2.5px;
+}
+
+.tempMin {
+    color: #9090a8;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-left: 2.5px;
+}
