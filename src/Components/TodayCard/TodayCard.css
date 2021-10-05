@@ -56,10 +56,10 @@
 }
 
 .cityInput {
-    margin-left: 650px;
     margin-top: 20px;
 }
 
 .topContainer {
     display: flex;
+    justify-content: space-between;
 }
