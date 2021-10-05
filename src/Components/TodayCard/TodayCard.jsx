@@ -26,23 +26,19 @@ const makeSign = (v) => {
 function TodayCard ({currentDay, location, onChangeCity}) {
     console.log(currentDay);
     const city = useSelector(selectCity);
-    const [value, setValue] = useState(city);
     const handleChange = evt => {
         if (evt.key === "Enter") {
-            setValue(evt.target.value);
             onChangeCity(evt.target.value);
         }
     }
     return (
         <div className="wrapperToday">
             <div className="topContainer">
-                <div className="location">{location}</div>
+                <div className="location">{city}</div>
                 <input
                     className="cityInput"
                     type="text"
-                    defaultValue={value}
                     placeholder="Введите название города"
-                    onChange={e => setValue(e.target.value)}
                     onKeyPress={handleChange}
                 />
             </div>

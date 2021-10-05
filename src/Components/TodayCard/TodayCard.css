@@ -57,6 +57,13 @@
 
 .cityInput {
     margin-top: 20px;
+    background: transparent;
+    color: #FFF;
+    border: none;
+}
+
+.cityInput::placeholder {
+    color: #FFF;
 }
 
 .topContainer {
